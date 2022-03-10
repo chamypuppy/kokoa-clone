@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link 
+    rel="shortcut icon" 
+    sizes="16x16 32x32 64x64" 
+    href="https://nomadcoders.co/m.png" />
+    <title>Home - My first website.</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="This is my website" />
+  </head>
+  <body>
+    <form>
+      <label for="profile">Profile Photo</label>
+      <input id="profile" type="file" accept=".pdf" /> <!-- pdf형식 파일만 -->
+      <input type="file" accept="image/*" /> <!-- 이미지 파일이면 전부 -->
+      <input type="file" accept="image/*, .pdf" /> <!-- 이미지 파일이면 전부 + pdf -->
+      <input required placeholder="Name" type="text" />
+      <input required placeholder="Last Name" type="text" />
+      <input required placeholder="Username" type="text" />
+      <input required placeholder="password" type="password" />
+      <input type="submit" value="Create Account"/>
+    </form>
+  </body>
+</html>
