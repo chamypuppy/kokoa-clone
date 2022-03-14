@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link 
+    rel="shortcut icon" 
+    sizes="16x16 32x32 64x64" 
+    href="13378d4b59d8b2a7d5236ac611f63efb.jpg" />
+    <link rel="stylesheet" href="styles.css">
+    <title>The Nico Times</title>
+    <meta charset="utf-8" />
+    <style>
+      *{
+        border: 2px dashed black;
+      }
+      html {
+        background-color: tomato;
+      }
+      body {
+        margin: 20px;
+        background-color: thistle;
+        padding: 20px;
+      }
+      div { 
+        padding: 20px;
+        border: 2px solid black; /* Cascading의 성질(위에 있는 코드부터 차례로 적용된다. 만약 같은 속성이 있다면 가장 마지막 속성이 적용된다) */
+      }
+      span {
+        background-color: turquoise;
+        border-style: dotted; /* 위의 border에서 style만 변경하고 싶으면 굳이 1px dotted black이라 또 적을 필요 없이 필요한 부분만 작성하면 된다. (이 역시 Cascading의 성질)*/
+      }
+      #first {
+        background-color: whitesmoke;
+        width: 150px;
+        height: 150px;
+      }
+      #second {
+        background-color: teal;
+        width: 100px;
+        height: 100px;
+      }
+      #third {
+        background-color: wheat;
+        width: 50px;
+        height: 50px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="first">
+      <div id="second">
+        <div id="third">
+          <span>hello</span>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>
