@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="13378d4b59d8b2a7d5236ac611f63efb.jpg" />
+  <link rel="stylesheet" href="styles.css">
+  <title>The Nico Times</title>
+  <meta charset="utf-8" />
+  <style>
+
+
+    body {
+      height: 100vh;
+      margin: 50px;
+    }
+
+    input {
+      border: 1px solid wheat;
+    }
+    /* input:optional {
+      border: 1px solid wheat;
+    } */
+
+    /* input:required {
+      border: 1px solid tomato;
+    } */
+
+    input:required { /* 클래스 추가 없이 선택할 때 좋네 */
+      border-color: tomato;
+    }
+
+    input[placeholder="username"] { /* attribute를 선택할 수 있네! */
+      background-color: thistle;
+    }
+
+    input[type="password"] { /* attribute를 선택할 수 있네! */
+      background-color: thistle;
+    }
+
+
+    input[placeholder~="name"] { /* '~' 표시는 앞 뒤 공백에 상관 있이 name을 포함하고 있는 것을 선택하겠다 의미. ~는 attribute에 공백이 있어서 딱 name만이 있는 것만 선택한다. */
+      background-color: pink;
+    }
+
+
+    input[placeholder*="name"] { /* '*' 표시는 앞 뒤 공백에 상관 없이 name을 포함하고 있다 라는 의미. 띄어쓰기 여부와 상관없이 name이라는 글자가 attribute에 존재한다면 다 선택된다.*/
+      background-color: pink;
+    }
+
+  </style>
+</head>
+
+<body>
+  <form>
+    <input type="text" placeholder="username" />
+    <input type="text" placeholder="First name" />
+    <input type="text" placeholder="Last name" />
+    <input type="password" required placeholder="password" />
+  </form>
+</body>
+
+</html>
