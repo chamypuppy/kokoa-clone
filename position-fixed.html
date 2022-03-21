@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="13378d4b59d8b2a7d5236ac611f63efb.jpg" />
+  <link rel="stylesheet" href="styles.css">
+  <title>The Nico Times</title>
+  <meta charset="utf-8" />
+  <style>
+
+
+    body {
+      height: 1000vh;
+      margin: 20px;
+    }
+    
+    div {
+      width: 300px;
+      height: 300px;
+      color: white;
+      background-color: teal;
+    }
+
+    #different {
+      top: 5px; /* fixed된 초기 위치를 바꿀 수 있다 top위치를 부여함으로써 위의 div와 완전히 다른 레이어가 되어버렸어!*/
+      left: 200px;
+      position: fixed;
+      background-color: wheat;
+      width: 350px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div></div>
+  <div id="different"></div>
+
+
+</body>
+
+</html>
