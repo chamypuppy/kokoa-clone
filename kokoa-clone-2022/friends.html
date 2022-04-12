@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friends - Kokoa Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div> <!-- space-between 했을 때에 span태그끼리는 함께 붙어서 between이 되는 걸 보면 부모 요소로 묶여있을 때는 같이 묶여서 위치되나보다. 확실하게 잘은 모르겠다. -->
+
+    </header>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <!-- person icon -->
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fas fa-user fa-lg"></i>
+          </a>
+        </li>
+
+        <!-- chat icon -->
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <span class="nav__notification">1</span>
+            <i class="fab fa-rocketchat fa-lg"></i>
+          </a>
+        </li>
+
+        <!-- search icon -->
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <i class="fas fa-search fa-lg"></i>
+          </a>
+        </li>
+
+
+        <!-- 더보기 icon -->
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <span class="nav__red-notice"></span>
+            <i class="fas fa-ellipsis-h fa-lg"></i>
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+
+    
+    <script 
+    src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html> 

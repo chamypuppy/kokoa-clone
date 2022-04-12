@@ -1,0 +1,46 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav__link {
+  position: relative;
+  color: #2e363e;
+}
+
+.nav__notification {
+  background-color: rgb(255, 70, 41);
+  width: 20px; 
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* 혹은 사각형의 반인 10px라고 써도 된다. */
+  color: white;
+  position: absolute;
+  left: 12px;
+  bottom: 10px;
+}
+
+.nav__red-notice {
+  background-color: rgb(255, 70, 41);
+  width: 5px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+}
