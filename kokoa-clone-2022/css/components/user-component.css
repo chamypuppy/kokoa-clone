@@ -1,0 +1,35 @@
+.user-component, 
+.user-component__column {
+  display: flex;
+  align-items: center;
+}
+
+
+/* 프로필 사진 미들 사이즈 */
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 27px;
+  margin-right: 20px;
+}
+
+.user-component__title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.user-component__subtitle {
+  margin-top: 8px;
+  /* font-size: 17px; */
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+}
+
+.friends-screen {
+  padding: 0 var(--horizontal-space);
+}

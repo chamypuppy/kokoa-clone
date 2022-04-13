@@ -1,0 +1,22 @@
+ #friends-display-link {
+   text-align: center;
+   display: block; /* 아아~ a는 인라인이니까 이 문장으로 한 줄을 다 차지한다면 text-align : center가 먹히겠구나!! 아니면 display : flex 사용 후 justify-content : center도 방법이겠네!*/
+   background-color: #fafafa;
+   padding: 15px 0;
+   font-size: 18px;
+   font-weight: 500;
+   color: rgba(0, 0, 0, 0.7);
+   margin-bottom: 10px;
+ }
+
+ #friends-display-link i {
+   color: rgba(0, 0, 0, 0.2);
+ }
+
+ #friends-display-link i:first-child {
+   margin-right: 3px;
+ }
+
+ #friends-display-link i:last-child {
+   margin-left: 6px;
+ }

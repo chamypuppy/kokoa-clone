@@ -6,13 +6,16 @@
 @import "components/status-bar.css"; /* 모든 화면에는 상태 표시바가 있기 때문에 따로 파일을 분리시킨 것. */
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 /* @import시, cascading 주의!! variables.css 파일이 밑에 위치하고 있으면 색상 적용이 안 된다!! */
 
 body {
+  color: #2e363e;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }/* style.css 파일에는 모든 screen에 적용될 수 있는 스타일을 써놓는게 니코쌤 방식. 괜찮은 거 같다. */
 
