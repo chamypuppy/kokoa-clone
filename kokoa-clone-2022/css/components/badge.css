@@ -1,0 +1,10 @@
+.badge {
+background-color: rgb(255, 70, 41);
+width: 20px; 
+height: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%; /* 혹은 사각형의 반인 10px라고 써도 된다. */
+color: white;
+}
