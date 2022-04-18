@@ -50,4 +50,7 @@ a {
 
 input:focus {
 	outline: none;
+	/* border-color: rgb(255, 228, 92); */
+	/* border-color: rgb(255, 156, 169)); */
+	border-color: #FFDBE5;
 }
