@@ -1,0 +1,19 @@
+.friends__header {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends__header-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.friends__header-icon span{
+  padding-left: 20px;
+  /* color: var(--deep-pink); */
+}
+
+.friends__main {
+  margin: 25px;
+}

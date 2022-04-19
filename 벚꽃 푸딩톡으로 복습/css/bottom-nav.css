@@ -1,0 +1,33 @@
+/* 하단 네비게이션 */
+.friends__nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 15px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(232, 232, 232, 0.338);
+}
+
+.friends__nav-list {
+  display: flex;
+  justify-content: space-around;
+
+  
+}
+
+.fas fa-user {
+  background-color: #fff;
+}
+
+.fa-user-color,
+.fa-comment-color {
+  color: var(--deep-pink);
+}
+
+.fa-user-unfocus,
+.fa-comment-unfocus,
+.fa-search-unfocus,
+.fa-ellipsis-h-unfocus {
+  color: none;
+}

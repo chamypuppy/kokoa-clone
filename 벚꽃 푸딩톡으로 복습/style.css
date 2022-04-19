@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+@import "reset.css";
+@import "roots.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+
+/* CSS */
+@import "css/top-bar.css";
+@import "css/user-profile.css";
+@import "css/bottom-nav.css";
+
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.nav__link-chat-alarm {
+  position: relative;
+}
+
+.nav__link-alarm {
+  color: white;
+  font-size: 13px;
+  /* background-color: rgb(31, 10, 8); */
+  background-color: rgb(255, 8, 70);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  position: absolute;
+  left: 13px;
+  bottom: 9px;
+}
+
+
+.user-profile-title-me {
+  display: flex;
+}
+
+.user-profile-my-title {
+  margin-left: 15px;
+  color: white;
+  font-size: 13px;
+  padding-top: 2px;
+  font-weight: 600;
+  /* background-color: rgb(31, 10, 8); */
+  background-color: rgb(255, 86, 128);
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  left: 13px;
+  bottom: 9px;
+}
+
+.user-profile-title-chat {
+  margin-left: 7px;
+}
