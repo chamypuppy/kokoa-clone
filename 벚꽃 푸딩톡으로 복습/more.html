@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>벚꽃 푸딩톡 - 더보기</title>
+</head>
+
+<body>
+
+  <!-- 핸드폰 상단바 -->
+  <div class="top-bar">
+    <div class="top-bar__common">
+      <span>KT</span>
+      <span>10:31</span>
+    </div>
+
+    <div class="top-bar__common">
+      <span><i class="fas fa-volume-mute"></i></span>
+      <span><i class="fas fa-wifi"></i></span>
+      <span><i class="fas fa-signal"></i></span>
+      <span>50%</span>
+      <span><i class="fas fa-battery-half"></i></span>
+    </div>
+  </div>
+
+  <header class="friends__header">
+    <span class="friends__header-title">더보기</span>
+    <div class="friends__header-icon">
+      <span><i class="fas fa-search fa-lg"></i></span>
+      <span><i class="fas fa-music fa-lg"></i></span>
+      <span><i class="fas fa-cog fa-lg"></i></span>
+    </div>
+  </header>
+
+  <!-- 더보기 지갑 헤더-->
+  <div class="more__header">
+    <div class="more__header-top-box">
+      <div class="more__header-top-box-text">
+        <span class="more__header-wallet-title">지갑</span>
+        <span><i class="fas fa-angle-right fa-lg allow-icon-click"></i></span>
+      </div>
+
+      <div class="more__header-wallet-right-box">
+        <span><i class="fas fa-user-shield"></i></span>
+        <span class="more__header-wallet-text">인증서</span>
+      </div>
+
+    </div>
+
+    <div class="more__header-wallet-center-box">
+      <span class="more__header-wallet-center-text">주민등록등본 톡으로 5초만에 받기</span>
+      <div class="more__header-wallet-center-box-allow">
+        <span><i class="fas fa-angle-right allow-icon-click"></i></span>
+      </div>
+    </div>
+
+    <div class="more__header-wallet-pay-box">
+
+      <div class="more__header-wallet-pay-box-left">
+        <img class="more__header-wallet-pay-img" src="img/pudding-pay.png" />
+        <span class="more__header-wallet-pay-text">pay</span>
+
+        <div class="more__header-wallet-pay-box-right">
+          <span class="more__header-wallet-pay-text">0원</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="more__header-wallet-bottom-box more__header-wallet-bottom-box-text">
+      <span class="more__header-wallet-bottom-text">송금</span>
+      <span class="more__header-wallet-bottom-text">결제</span>
+      <span class="more__header-wallet-bottom-text">자산</span>
+
+      <div class="more__header-wallet-bottom-box-right">
+        <span><i class="fas fa-shopping-cart"></i></span>
+        <span class="more__header-wallet-bottom-text">구매내역</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 더보기 서비스 아이콘 -->
+  <!-- <main class="more__main-service">
+
+    <div class="more__main-icons">
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-envelope fa-lg"></i></span>
+        <span>메일</span>
+      </div>
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-calendar-check fa-lg"></i></span>
+        <span>캘린더</span>
+      </div>
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-inbox fa-lg"></i></span>
+        <span>서랍</span>
+      </div>
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-address-card fa-lg"></i></span>
+        <span>톡명함</span>
+      </div>
+    </div>
+
+    <div class="more__main-icons">
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fab fa-medium-m fa-lg"></i></span>
+        <span>메이커스</span>
+      </div>
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-gift fa-lg"></i></span>
+        <span>선물하기</span>
+      </div>
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-grin-stars fa-lg"></i></span>
+        <span>이모티콘</span>
+      </div>
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-address-card fa-lg"></i></span>
+        <span>프렌즈</span>
+      </div>
+
+    </div>
+
+
+    <div class="more__main-icons">
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-store fa-lg"></i></span>
+        <span>쇼핑하기</span>
+      </div>
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-tshirt fa-lg"></i></span>
+        <span>패션</span>
+      </div>
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-utensils fa-lg"></i></span>
+        <span>주문하기</span>
+      </div>
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-ticket-alt fa-lg"></i></span>
+        <span>푸딩티켓</span>
+      </div>
+
+    </div>
+
+    <div class="more__main-icons">
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-gamepad fa-lg"></i></span>
+        <span>게임</span>
+      </div>
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-cut fa-lg"></i></span>
+        <span>헤어샵</span>
+      </div>
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-toggle-on fa-lg"></i></span>
+        <span>구독ON</span>
+      </div>
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-th-large fa-lg"></i></span>
+        <span>전체서비스</span>
+      </div>
+
+    </div>
+
+  </main> -->
+
+
+
+  <!-- 더보기 서비스 아이콘 복사 -->
+  <main class="more__main-service-paste">
+
+    <div class="more__main-icons">
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-envelope fa-lg"></i></span>
+        <span>메일</span>
+      </div>
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-calendar-check fa-lg"></i></span>
+        <span>캘린더</span>
+      </div>
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-inbox fa-lg"></i></span>
+        <span>서랍</span>
+      </div>
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-address-card fa-lg"></i></span>
+        <span>톡명함</span>
+      </div>
+    </div>
+
+    <div class="more__main-icons">
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fab fa-medium-m fa-lg"></i></span>
+        <span>메이커스</span>
+      </div>
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-gift fa-lg"></i></span>
+        <span>선물하기</span>
+      </div>
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-grin-stars fa-lg"></i></span>
+        <span>이모티콘</span>
+      </div>
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-address-card fa-lg"></i></span>
+        <span>프렌즈</span>
+      </div>
+
+    </div>
+
+
+    <div class="more__main-icons">
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-store fa-lg"></i></span>
+        <span>쇼핑하기</span>
+      </div>
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-tshirt fa-lg"></i></span>
+        <span>패션</span>
+      </div>
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-utensils fa-lg"></i></span>
+        <span>주문하기</span>
+      </div>
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-ticket-alt fa-lg"></i></span>
+        <span>푸딩티켓</span>
+      </div>
+
+    </div>
+
+    <div class="more__main-icons">
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-gamepad fa-lg"></i></span>
+        <span>게임</span>
+      </div>
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-cut fa-lg"></i></span>
+        <span>헤어샵</span>
+      </div>
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-toggle-on fa-lg"></i></span>
+        <span>구독ON</span>
+      </div>
+
+      <div class="more__main-icons-text-and-box">
+        <span><i class="fas fa-th-large fa-lg"></i></span>
+        <span>전체서비스</span>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- 하단 네비 -->
+  <nav class="friends__nav">
+    <ul class="friends__nav-list">
+      <!-- 친구 목록 -->
+      <li class="nav__btn">
+        <a class="nav__link" href="friends.html">
+          <i class="fas fa-user fa-lg 
+          
+          fa-user-unfocus"></i>
+        </a>
+      </li>
+      <!-- 채팅 목록 -->
+      <li class="nav__btn">
+        <div class="nav__link-chat-alarm">
+          <a class="nav__link" href="chatting.html">
+            <span class="nav__link-alarm">2</span>
+            <i class="far fa-comment fa-lg fa-comment-unfocus">
+            </i>
+          </a>
+        </div>
+      </li>
+      <!-- 뷰 목록 -->
+      <li class="nav__btn">
+        <a class="nav__link" href="view.html">
+          <i class="fas fa-eye fa-lg"></i>
+        </a>
+      </li>
+      <!-- 쇼핑 목록 -->
+      <li class="nav__btn">
+        <a class="nav__link" href="shopping.html">
+          <i class="fas fa-shopping-cart fa-lg"></i>
+        </a>
+      </li>
+      <!-- 더보기 목록 -->
+      <li class="nav__btn">
+        <a class="nav__link" href="more.html">
+          <i class="fas fa-ellipsis-h fa-lg fa-ellipsis-h-unfocus"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+
+
+  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

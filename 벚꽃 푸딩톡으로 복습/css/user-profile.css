@@ -64,7 +64,7 @@
   border: 1px solid var(--deep-pink);
   border-radius: 15px;
   padding: 3px;
-  margin-left: 150px;
+  margin-left: 160px;
 }
 
 .user-profile-music-title {
@@ -77,11 +77,6 @@
 }
 
 .user-profile-music-pudding{
-  margin-left: 0;
-}
-
-.user-profile-music-pudding {
   margin-top: 10px;
-  margin-left: 70px;
-
+  margin-left: 83px;
 }
