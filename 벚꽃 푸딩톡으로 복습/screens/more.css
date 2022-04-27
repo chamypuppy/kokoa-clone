@@ -1,3 +1,7 @@
+.more-talk {
+  overflow-x: hidden;
+}
+
 .more__header {
   background-color: var(--pink);
   position: relative;

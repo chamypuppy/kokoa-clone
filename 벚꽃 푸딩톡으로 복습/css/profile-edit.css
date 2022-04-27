@@ -1,3 +1,14 @@
+.profile-edit__top-bar {
+  color: white;
+}
+
+.profile__bg {
+  /* background-color: #859299; */
+  background: linear-gradient(-30deg, #626e74, #7c888ff4, #7e8a90);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 .profile__header-group {
   display: flex;
   justify-content: space-between;

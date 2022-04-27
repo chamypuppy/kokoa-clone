@@ -1,0 +1,73 @@
+.user-profile-title-me {
+  display: flex;
+}
+
+.user-profile-my-title {
+  margin-left: 15px;
+  color: white;
+  font-size: 13px;
+  padding-top: 2px;
+  font-weight: 600;
+  /* background-color: rgb(31, 10, 8); */
+  background-color: rgb(255, 86, 128);
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  left: 13px;
+  bottom: 9px;
+}
+
+.user-profile-title-chat {
+  margin-left: 7px;
+}
+
+.user-chatting-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-profile__time-me{
+  /* margin-left: 88px; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.user-profile-chat-column {
+  padding-bottom: 55px;
+  padding-right: 10px;
+  color: rgb(177, 166, 166);
+}
+
+.user-chatting-none-badge {
+  margin-bottom: 4px;
+}
+
+.user-profile-chat-column {
+  position: relative;
+}
+
+.user-chatting-badge {
+  background-color: rgb(255, 70, 41);
+  width: 20px; 
+  height: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  bottom: 25px;
+}
+
+.user-chatting-list:first-child {
+  /* background-color: red; */
+}
+
+.user-profile-chat {
+  margin-bottom: 5px;
+}

@@ -31,3 +31,22 @@
 .fa-ellipsis-h-unfocus {
   color: none;
 }
+
+.nav__link-chat-alarm {
+  position: relative;
+}
+
+.nav__link-alarm {
+  color: white;
+  font-size: 13px;
+  /* background-color: rgb(31, 10, 8); */
+  background-color: rgb(255, 8, 70);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  position: absolute;
+  left: 13px;
+  bottom: 9px;
+}

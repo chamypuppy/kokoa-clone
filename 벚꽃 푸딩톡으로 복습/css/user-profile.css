@@ -35,6 +35,10 @@
   margin-left: 15px;
 }
 
+.user-chatting-my-name {
+  margin-left: 8px;
+}
+
 .user-profile-comment {
   font-size: 15px;
   margin-top: 10px;
@@ -79,4 +83,14 @@
 .user-profile-music-pudding{
   margin-top: 10px;
   margin-left: 83px;
+}
+
+.user-profile-chat-time {
+  display: flex;
+}
+
+/* chatting.html */
+.user-profile-chat {
+  margin-bottom: 10px;
+  padding-top: 20px;
 }
