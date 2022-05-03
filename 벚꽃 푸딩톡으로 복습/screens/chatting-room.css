@@ -1,18 +1,32 @@
+.chatting-room__body {
+  height: 1000vh;
+  background-color: rgb(180, 39, 39);
+}
+
+.top-bar {
+  background-color: #fff;
+}
+
 .chatting-room__header {
-  margin: 55px 30px 25px 30px;
+  /* margin: 55px 30px 25px 30px; */
+  padding: 20px;
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: 40px;
+  background-color: #fff;
 }
 
 .chatting-room__header-title {
   position: absolute;
-  left: 70px;
+  left: 50px;
   font-size: 20px;
   font-weight: 600;
-
 }
 
 .chatting-room__notice {
+  position: fixed;
+  top: 98px;
   width: 100%;
   height: 60px;
   background-color: #fff;
@@ -24,7 +38,7 @@
 
 .chatting-room__notice span:first-child {
   position: absolute;
-  left: 33px;
+  left: 23px;
   box-sizing: border-box;
 }
 
@@ -37,14 +51,15 @@
 
 .chatting-room__notice-title {
   position: absolute;
-  left: 75px;
+  left: 60px;
+  font-weight: 600;
 }
 
 .chatting-room__footer-chat-box {
   width: 100%;
   height: 47px;
   background-color: #fff;
-  box-shadow:12px 2px 7px 2px rgba(225, 225, 225, 0.387);
+  box-shadow:12px 2px 7px 2px rgba(225, 225, 225, 0.282);
   position: absolute;
   bottom: 60px;
   display: flex;
@@ -55,12 +70,82 @@
   color: rgb(177, 177, 177);
 }
 
-.chatting-room__footer-chat-box span:nth-child(2) {
+.chat-smile-icon {
   position: absolute;
   right: 55px;
+  top: 16px;
 }
 
 .hashtag-icon {
   font-weight: 600;
   font-size: 25px;
+  position: absolute;
+  right: 15px;
+}
+
+.chatting-room__footer-chat-box {
+  position: fixed;
+  bottom: 60px;
+}
+
+.chatting-room__chat-input {
+  border-style: none;
+  width: 65%;
+  position: absolute;
+  left: 50px;
+  font-size: 18px;
+}
+
+.chatting-date-box {
+  position: absolute;
+  top: 190px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatting-date-box span {
+  background-color: rgba(180, 180, 180, 0.579);
+  padding: 7px;
+  border-radius: 15px;
+  font-size: 15px;
+  color: #fff;
+  z-index: -1;
+}
+
+.chatting-room__your-chat {
+  position: absolute;
+  top: 260px;
+  margin-left: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* 상대방 채팅 */
+
+.user-profile-photo-xs {
+  width: 45px;
+  height: 45px;
+  border-radius: 18px;
+  /* border: 1px solid gray;  */
+}
+
+.your-chat-name {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.your-chat-small-box,
+.your-chat-name {
+  padding-left: 10px;
+}
+
+.your-chat-small-box {
+  margin-top: 10px;
+}
+
+.your-chat__bubble {
+  padding: 8px;
+  background-color: #fff;
 }

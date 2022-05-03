@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>벚꽃 푸딩톡 - 채팅방</title>
+</head>
+
+<body class="chatting-room__body">
+
+  <!-- 핸드폰 상단바 -->
+  <div class="top-bar">
+    <div class="top-bar__common">
+      <span>KT</span>
+      <span>10:31</span>
+    </div>
+
+    <div class="top-bar__common">
+      <span><i class="fas fa-volume-mute"></i></span>
+      <span><i class="fas fa-wifi"></i></span>
+      <span><i class="fas fa-signal"></i></span>
+      <span>50%</span>
+      <span><i class="fas fa-battery-half"></i></span>
+    </div>
+  </div>
+
+  <header class="chatting-room__header">
+    <a href="chatting.html">
+      <span><i class="fas fa-arrow-left fa-lg"></i></span>
+    </a>
+    <span class="chatting-room__header-title">쿠키</span>
+    <div class="friends__header-icon">
+      <span><i class="fas fa-search fa-lg"></i></span>
+      <span><i class="fas fa-bars fa-lg"></i></span>
+
+    </div>
+  </header>
+
+  <main class="chatting-room__main">
+
+    <div class="chatting-room__notice">
+      <span><i class="fas fa-bullhorn"></i></span>
+      <span class="chatting-room__notice-title">2022년도 화이팅🍀💚</span>
+      <span><i class="fas fa-angle-down fa-lg"></i></span>
+    </div>
+
+    <div class="chatting-date-box">
+      <span>2022년 5월 3일 화요일</span>
+    </div>
+
+    <div class="chatting-room__your-chat">
+
+      <img class="user-profile-photo-xs" src="https://avatars.githubusercontent.com/u/91423376?s=96&v=4" />
+      <div class="your-chat-big-box">
+        <span class="your-chat-name">쿠키</span>
+        <div class="your-chat-small-box">
+          <!-- <div class="your-chat__bubble">HI</div> -->
+          <span class="your-chat__bubble">HI</span>
+          <span>오후 9:55</span>
+        </div>
+      </div>
+  </main>
+
+
+
+  <!-- 하단 채팅창 -->
+  <form class="chatting-room__chat-form">
+    <div class="chatting-room__footer-chat-box">
+      <span><i class="far fa-plus-square fa-lg"></i></span>
+
+      <input class="chatting-room__chat-input" type="text" />
+
+      <span><i class="far fa-smile-beam fa-lg chat-smile-icon"></i></span>
+      <span class="hashtag-icon">#</span>
+    </div>
+  </form>
+
+
+
+  <!-- 하단 네비 -->
+  <nav class="friends__nav">
+    <ul class="friends__nav-list">
+      <!-- 친구 목록 -->
+      <li class="nav__btn">
+        <a class="nav__link" href="friends.html">
+          <i class="fas fa-user fa-lg 
+          fa-user-unfocus"></i>
+        </a>
+      </li>
+      <!-- 채팅 목록 -->
+      <li class="nav__btn">
+        <div class="nav__link-chat-alarm">
+          <a class="nav__link" href="chatting.html">
+            <span class="nav__link-alarm">2</span>
+            <i class="fas fa-comment fa-lg fa-comment-color"></i>
+            </i>
+          </a>
+        </div>
+      </li>
+      <!-- 뷰 목록 -->
+      <li class="nav__btn">
+        <a class="nav__link" href="view.html">
+          <i class="fas fa-eye fa-lg"></i>
+        </a>
+      </li>
+      <!-- 쇼핑 목록 -->
+      <li class="nav__btn">
+        <a class="nav__link" href="shopping.html">
+          <i class="fas fa-shopping-cart fa-lg"></i>
+        </a>
+      </li>
+      <!-- 더보기 목록 -->
+      <li class="nav__btn">
+        <a class="nav__link" href="more.html">
+          <i class="fas fa-ellipsis-h fa-lg fa-ellipsis-h-unfocus"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+
+
+  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+  <script src="chatting-room.js"></script>
+</body>
+
+</html>
