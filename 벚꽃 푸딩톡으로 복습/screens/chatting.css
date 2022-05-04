@@ -37,13 +37,11 @@
 
 
 .user-profile-chat-column {
+  position: absolute;
+  top: 10px;
   padding-bottom: 55px;
   padding-right: 10px;
   color: rgb(177, 166, 166);
-}
-
-.user-chatting-none-badge {
-  margin-bottom: 4px;
 }
 
 .user-profile-chat-column {
