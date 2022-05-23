@@ -125,3 +125,7 @@
   margin-right: 5px;
   color: rgb(171, 171, 171);
 }
+
+.clicked {
+  color: red;
+}
