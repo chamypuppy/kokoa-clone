@@ -1,0 +1,67 @@
+.login-header__welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.login-header__welcome-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.login-header__welcome-subtitle {
+  margin-top: 25px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.login-main__form {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 5px;
+  border: none;
+}
+
+.login-main__form-input,
+.login-main__form-submit {
+  font-family: 'Nanum Gothic', sans-serif;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 18px;
+  margin: 0 15px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.login-main__form-input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.login-main__form-input-password {
+  margin-bottom: 30px;
+}
+
+.login-main__form-submit {
+  border: none;
+  cursor: pointer;
+}
+
+.login-main__form-submit:hover {
+  background-color:var(--pink);
+}
+
+.login-main__form-submit-sign-up {
+  margin-top: 15px;
+}
+
+.login-main__form-link {
+  text-align: center;
+  margin-top: 25px;
+  font-weight: 600;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.8);
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+@import "reset.css";
+@import "roots.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/more.css";
+@import "screens/chatting.css";
+@import "screens/chatting-room.css";
+@import "screens/view.css";
+@import "screens/shopping.css";
+
+/* CSS */
+@import "css/top-bar.css";
+@import "css/user-profile.css";
+@import "css/bottom-nav.css";
+@import "css/profile-edit.css";
+@import "css/media_query.css";
+
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+
+
+
+

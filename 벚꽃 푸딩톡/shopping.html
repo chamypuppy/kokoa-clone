@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>벚꽃 푸딩톡 - 쇼핑</title>
+</head>
+
+<body class="view__bg-color">
+
+  <!-- 핸드폰 상단바 -->
+  <div class="top-bar chatting-room__top-bar">
+    <div class="top-bar__common">
+      <span>KT</span>
+      <span>10:31</span>
+    </div>
+
+    <div class="top-bar__common">
+      <span><i class="fas fa-volume-mute"></i></span>
+      <span><i class="fas fa-wifi"></i></span>
+      <span><i class="fas fa-signal"></i></span>
+      <span>50%</span>
+      <span><i class="fas fa-battery-half"></i></span>
+    </div>
+  </div>
+
+
+  <!-- 뷰 헤더 -->
+  <header class="shopping__header">
+    <span class="shopping__header-title">쇼핑</span>
+    <div class="friends__header-icon view__header-icon">
+      <span><i class="fas fa-search fa-lg"></i></span>
+      <span><i class="fas fa-music fa-lg"></i></span>
+      <span><i class="fas fa-cog fa-lg"></i></span>
+
+    </div>
+  </header>
+
+
+  <!-- 뷰 카테고리 -->
+  <div class="shopping__header-subtitle shopping__main-icons">
+
+    <div class="shopping__main-icons-text-and-box">
+      <span><i class="fas fa-gift fa-lg"></i></span>
+      <span class="shopping__header-subtitle-title">선물하기</span>
+    </div>
+
+    <div class="shopping__main-icons-text-and-box">
+      <span><i class="fas fa-store fa-lg"></i></span>
+      <span class="shopping__header-subtitle-title">쇼핑하기</span>
+    </div>
+
+    <div class="shopping__main-icons-text-and-box">
+      <span><i class="fas fa-magic fa-lg"></i></span>
+      <span class="shopping__header-subtitle-title">메이커스</span>
+    </div>
+
+    <div class="shopping__main-icons-text-and-box">
+      <span></span><i class="fas fa-laugh-wink fa-lg"></i>
+      <span class="shopping__header-subtitle-title">프렌즈</span>
+    </div>
+
+    <div class="shopping__main-icons-text-and-box">
+      <span><i class="fas fa-broadcast-tower fa-lg"></i></span>
+      <span class="shopping__header-subtitle-title">쇼핑라이브</span>
+    </div>
+
+  </div>
+
+
+  <main class="shopping__main-wrap-box">
+
+    <img class="shopping__main-banner-img" src="img/shopping-banner.jpg" alt="shopping-banner" />
+
+
+    <!-- 쇼핑 메인 주문 프로필 -->
+    <div class="shopping__main-order-big-box">
+
+      <span class="shopping__main-order-name">
+        <img class="shopping__pudding-profile-img" src="img/pudding-img.jpg" alt="">
+        푸딩비님의 쇼핑
+        <i class="fas fa-angle-right"></i>
+      </span>
+
+      <div class="shopping__main-order-mini-box">
+        <span class="shopping__main-order-button">
+          최근 주문
+        </span>
+
+        <span class="shopping__main-order-gift">
+          선물함 <span class="shopping__main-order-gift-color">4</span>
+        </span>
+      </div>
+
+    </div>
+
+    <!-- 쇼핑 메인 서치 폼 -->
+    <form class="shopping__main-search-form-box">
+      <input type="text" class="shopping__main-input" placeholder="  🔍 벚꽃푸딩쇼핑에서 검색하세요" />
+
+
+      <!-- 쇼핑 메인 서치 큰 박스 -->
+      <div class="shopping__main-search-recommend-big-box">
+
+        <!-- 쇼핑 메인 서치 왼쪽 박스 -->
+        <div class="shopping__main-search-recommend-box-left">
+          <span>추천 <i class="fas fa-info-circle"></i></span>
+        </div>
+
+        <!-- 쇼핑 메인 서치 오른쪽 박스 -->
+        <div class="shopping__main-search-recommend-box-right">
+          <span class="shopping__recommend-subtitle">카네이션 브로치</span>
+          <span class="shopping__recommend-subtitle">닌텐도 스위치</span>
+          <span class="shopping__recommend-subtitle">에어 서큘레이터</span>
+          <span class="shopping__recommend-subtitle">선풍기</span>
+        </div>
+
+      </div>
+    </form>
+
+    <div class="shopping__main-pudding_deal-big-box">
+      <div class="shopping__pudding_deal-box-left">
+        <span>푸딩박스</span>
+      </div>
+
+      <div class="shopping__pudding_deal-box-right">
+        <span>전체보기 <i class="fas fa-angle-right"></i></span>
+      </div>
+ 
+    </div>
+
+  </main>
+
+
+  <!-- 하단 네비 -->
+  <nav class="friends__nav">
+    <ul class="friends__nav-list">
+      <!-- 친구 목록 -->
+      <li class="nav__btn">
+        <a class="nav__link" href="friends.html">
+          <i class="fas fa-user fa-lg 
+          fa-user-unfocus"></i>
+        </a>
+      </li>
+      <!-- 채팅 목록 -->
+      <li class="nav__btn">
+        <div class="nav__link-chat-alarm">
+          <a class="nav__link" href="chatting.html">
+            <span class="nav__link-alarm">2</span>
+            <i class="far fa-comment fa-lg fa-comment-unfocus">
+            </i>
+          </a>
+        </div>
+      </li>
+      <!-- 뷰 목록 -->
+      <li class="nav__btn">
+        <a class="nav__link" href="view.html">
+          <i class="fas fa-eye fa-lg"></i>
+        </a>
+      </li>
+      <!-- 쇼핑 목록 -->
+      <li class="nav__btn">
+        <a class="nav__link" href="shopping.html">
+          <i class="fas fa-shopping-cart fa-lg fa-user-color"></i>
+        </a>
+      </li>
+      <!-- 더보기 목록 -->
+      <li class="nav__btn">
+        <a class="nav__link" href="more.html">
+          <i class="fas fa-ellipsis-h fa-lg fa-ellipsis-h-unfocus"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <span class="media__query--warning--text">벚꽃 푸딩톡은 화면 크기 447px - 500px에 가장 최적화되어 있습니다 :)
+  </span>
+
+  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+  <script src="view.js"></script>
+</body>
+
+</html>

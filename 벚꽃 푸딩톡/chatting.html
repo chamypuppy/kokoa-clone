@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>벚꽃 푸딩톡 - 채팅 목록</title>
+</head>
+
+<body>
+
+  <!-- 핸드폰 상단바 -->
+  <div class="top-bar">
+    <div class="top-bar__common">
+      <span>KT</span>
+      <span>10:31</span>
+    </div>
+
+    <div class="top-bar__common">
+      <span><i class="fas fa-volume-mute"></i></span>
+      <span><i class="fas fa-wifi"></i></span>
+      <span><i class="fas fa-signal"></i></span>
+      <span>50%</span>
+      <span><i class="fas fa-battery-half"></i></span>
+    </div>
+  </div>
+
+  <header class="friends__header">
+    <span class="friends__header-title">채팅</span>
+    <div class="friends__header-icon">
+      <span><i class="fas fa-search fa-lg"></i></span>
+      <span><i class="fas fa-plus fa-lg"></i></span>
+      <span><i class="fas fa-music fa-lg"></i></span>
+      <span><i class="fas fa-cog fa-lg"></i></span>
+    </div>
+  </header>
+
+  <main class="friends__main">
+
+    <div class="user-chatting-list">
+      <a href="my-chatting-room.html">
+        <div class="user-profile user-profile-chat">
+          <img class="user-profile-photo-mid" src="https://avatars.githubusercontent.com/u/91423376?s=96&v=4" />
+
+          <div class="user-profile-text">
+            <div class="user-profile-group">
+              <span class="user-profile-my-title">나</span>
+              <h4 class="user-profile-title user-chatting-my-name">푸딩비</h4>
+            </div>
+            <h4 class="user-profile-comment">딸기는 언제나 옳아!!🍓❤❤💕🥰</h4>
+          </div>
+        </div>
+      </a>
+      <div class="user-profile-chat-column user-chatting-none-badge">
+        <span class="user-profile__time">오후 6:20</span>
+      </div>
+
+    </div>
+
+    <div class="user-chatting-list">
+      <a href="cookie-chatting-room.html">
+        <div class="user-profile user-profile-chat">
+          <img class="user-profile-photo-mid" src="https://avatars.githubusercontent.com/u/91423376?s=96&v=4" />
+
+          <div class="user-profile-text">
+            <h4 class="user-profile-title">쿠키</h4>
+            <h4 class="user-profile-comment">르뱅쿠키가 엄청 맛나대~~😁🍪💛</h4>
+          </div>
+        </div>
+      </a>
+      <div class="user-profile-chat-column">
+        <span class="user-profile__time">오후 6:20</span>
+        <span class="user-chatting-badge">1</span>
+      </div>
+
+    </div>
+
+    <div class="user-chatting-list">
+      <a href="crepe-chatting-room.html">
+        <div class="user-profile user-profile-chat">
+          <img class="user-profile-photo-mid" src="https://avatars.githubusercontent.com/u/91423376?s=96&v=4" />
+
+          <div class="user-profile-text">
+            <span class="user-profile-title">크레페</span>
+            <h4 class="user-profile-comment">딸기와 시리얼이 잔뜩 들어간 <br> 크레페가 최고딩😄</h4>
+          </div>
+        </div>
+      </a>
+
+      <div class="user-profile-chat-column">
+        <span class="user-profile__time">오후 6:20</span>
+        <span class="user-chatting-badge">1</span>
+      </div>
+    </div>
+    </div>
+
+
+  </main>
+
+  <!-- 하단 네비 -->
+  <nav class="friends__nav">
+    <ul class="friends__nav-list">
+      <!-- 친구 목록 -->
+      <li class="nav__btn">
+        <a class="nav__link" href="friends.html">
+          <i class="fas fa-user fa-lg 
+          fa-user-unfocus"></i>
+        </a>
+      </li>
+      <!-- 채팅 목록 -->
+      <li class="nav__btn">
+        <div class="nav__link-chat-alarm">
+          <a class="nav__link" href="chatting.html">
+            <span class="nav__link-alarm">2</span>
+            <i class="fas fa-comment fa-lg fa-comment-color"></i>
+            </i>
+          </a>
+        </div>
+      </li>
+      <!-- 뷰 목록 -->
+      <li class="nav__btn">
+        <a class="nav__link" href="view.html">
+          <i class="fas fa-eye fa-lg"></i>
+        </a>
+      </li>
+      <!-- 쇼핑 목록 -->
+      <li class="nav__btn">
+        <a class="nav__link" href="shopping.html">
+          <i class="fas fa-shopping-cart fa-lg"></i>
+        </a>
+      </li>
+      <!-- 더보기 목록 -->
+      <li class="nav__btn">
+        <a class="nav__link" href="more.html">
+          <i class="fas fa-ellipsis-h fa-lg fa-ellipsis-h-unfocus"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <span class="media__query--warning--text">벚꽃 푸딩톡은 화면 크기 447px - 500px에 가장 최적화되어 있습니다 :)
+  </span>
+
+  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
